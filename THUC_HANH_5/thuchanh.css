@@ -1,0 +1,19 @@
+body{
+    padding: auto;
+    background-color: white;
+    margin: 20px;
+   }
+fieldset{
+    border-radius: 12px;
+    background-color:cornsilk;
+}
+h2{
+    
+    background-color: seashell;
+    border-radius: 10px solid #000;
+    clear: left;
+
+}
+img{
+    float: left;
+}

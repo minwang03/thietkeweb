@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+   list-style-type: none;
+   margin: 0px;
+   padding: 0 50px;
+   display:flex;
+   justify-content:flex-end ;
+}
+nav ul li a{
+   font-weight: bold;
+   font-size: 20px;
+   font-family:'Courier New', Courier, monospace;
+   color: black;
+   position: relative;
+   display: block;
+   padding: 20px 10px;
+   text-decoration: none;
+}
+nav ul li a:hover{
+   color: rgb(0, 255, 242);
+}
+body{
+    background-color: rgb(212, 209, 209);
+}
+header{
+    background-color: rgb(212, 209, 209);
+    height: 100px;
+}
+
+main h1{
+    color: #252525;
+    font-size: 38px;
+    text-align: center;
+    letter-spacing: 1px;
+    line-height: 1;
+    margin-bottom: 48px;
+    padding: 0 10px;
+    position: relative;
+}
+
+div h3{
+    margin-top: 30px;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #666;
+}
+div p{
+    padding: 6px 21px ;
+    margin-top: 200px;
+    font-weight: 400px;
+    font-family: source sans pro,sans-serif;
+    margin: 0;
+    font-size: 14px;
+}
+.khung{
+    line-height: 30px;
+}
+.khung1{
+    margin-left: 40px;
+    border-radius: 4px;
+    padding: 10px 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    text-align: center;
+    border: 0px;
+    height: 400px;
+    width: 20%;
+    background-color:white;
+    float: left;
+}
+.khung2{
+    margin-left: 40px;
+    border-radius: 4px;
+    padding: 10px 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    text-align: center;
+    border: 0px;
+    height: 400px;
+    width: 20%;
+    background-color:white;
+    float: left;
+}
+.khung3{
+    margin-left: 40px;
+    border-radius: 4px;
+    padding: 10px 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    text-align: center;
+    border: 0px;
+    height: 400px;
+    width: 20%;
+    background-color:white;
+    float: left;
+}
+.khung4{
+    margin-right: 40px;
+    border-radius: 4px;
+    padding: 10px 10px;
+    box-shadow: 0 0 10px rgb(0 0 0 / 20%);
+    text-align: center;
+    border: 0px;
+    height: 400px;
+    width: 20%;
+    background-color:white;
+    float: right;
+}
+.anh{
+margin-top: 100px; 
+}
+.anh2{
+    padding: 0 60px;
+}

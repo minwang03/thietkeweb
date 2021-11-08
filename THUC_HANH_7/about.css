@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul {
+   list-style-type: none;
+   margin: 0px;
+   padding: 0 50px;
+   display:flex;
+   justify-content:flex-end ;
+}
+nav ul li a{
+   font-weight: bold;
+   font-size: 20px;
+   font-family:'Courier New', Courier, monospace;
+   color: black;
+   position: relative;
+   display: block;
+   padding: 20px 10px;
+   text-decoration: none;
+}
+nav ul li a:hover{
+   color: rgb(0, 255, 242);
+}
+
+
+.img1{
+    float: left;
+    border: 8px solid whitesmoke;
+    box-shadow: 0 0 30px rgb(0 0 0 / 20%);
+}
+.container{
+    
+    width: 35%;
+    float: left;
+}
+.about{
+    padding-right: 10%; 
+    width: 50%;
+    float: right;
+}
+p{
+    line-height: 25px;
+    margin-top: 10px;
+    margin-bottom: 25px;
+    color: grey;
+    font-family: source sans pro,sans-serif;
+    font-size: 17px;
+}
+h1{
+    font-size: 40px;
+    color: rgb(102, 102, 102);
+    font-weight: 700;
+    font-family: source sans pro,sans-serif;
+}
+li{
+    list-style-type: none;
+    border-bottom:1px ;
+    margin-bottom: 25px;
+    font-family: source sans pro,sans-serif;
+    font-size: 17px;
+}
+li .title{
+    word-spacing:100px;
+    font-size: 17px;
+}
+li .detail{
+position: absolute;
+  right: 0px;
+  width: 600px;
+    color:grey;
+    font-size: 17px;
+}
+header{
+    height: 10%;
+}
+.type{
+    word-spacing:100px;
+    font-size: 17px;
+}
+li .cham{
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    width: 700px;
+}
+.dowload{ 
+    border-color:rgb(0, 255, 242) ;
+    margin-right: 20px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 250px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(0, 255, 242);
+}
+.contact{
+    border-color:rgb(255, 17, 0) ;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    background-color: rgb(255, 17, 0);
+}
+input:hover{
+    background-color: rgb(241, 231, 121);
+    color: rgb(83, 71, 255);
+    font-weight: bold;
+}
+.anh2{
+    padding: 0px 50px;
+    height: 60px;
+}

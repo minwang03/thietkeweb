@@ -1,0 +1,43 @@
+.box{
+    width: 200px;
+    height: 400px;
+    border-radius: 10px;
+    margin: 20px 20px;
+}
+.box1{
+    background-color: aqua;
+    
+}
+.box2{
+    background-color: aquamarine;
+   
+}
+.box3{
+    background-color: blueviolet;
+    
+}
+.box4{
+    background-color: burlywood;
+    
+}
+.box5{
+    background-color: cornflowerblue;
+    
+}
+.box6{
+    background-color: crimson;
+    
+}
+.box7{
+    background-color: gold;
+    
+}
+.container{
+    flex-wrap: wrap;
+    height: 900px;
+    border: 2px solid darkblue ;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap row;
+}

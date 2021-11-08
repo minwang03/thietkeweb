@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-rows: 50px 180px 465px ;
+    grid-template-columns: 1200px 240px ;
+    grid-template-areas: 
+    "menu menu"
+    "header header "
+    "trai  phai"
+    ;
+}
+.menu{
+    background-color: rgb(128, 71, 71);
+    grid-area: menu;
+}
+.banner{
+    background:url(images/croissants_banner.jpg) no-repeat center center;
+    background-size: cover;
+    grid-area: header;
+}
+.trai{
+    padding: 10px 10px;
+    grid-area: trai;
+}
+.phai{
+    background: url(images/scallop.png) repeat-x left top;
+    background-color: #F6F3ED;
+    padding: 1em;
+    display: block;
+    grid-area: phai;
+}
+
+fieldset{
+    border-radius: 12px;
+    background-color:cornsilk;
+}
+h2{
+    background-color: seashell;
+    border-radius: 10px solid #000;
+    clear: left;
+}
+img{
+    float: left;
+}
+
+.all{ 
+    border-color:rgb(194, 55, 55) ;
+    position: relative;
+    color: rgb(128, 71, 71) ;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 80px;
+    height: 40px;
+    text-align: center;
+    background-color:white;
+}
+.design{ 
+    border-color:rgb(194, 55, 55) ;
+    position: relative;
+    color: rgb(128, 71, 71);
+    font-size: 15px;
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+}
+.development{ 
+    border-color:rgb(194, 55, 55) ;
+    position: relative;
+    color: rgb(128, 71, 71);
+    font-size: 15px;
+    border-radius: 5px;
+    width: 170px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+}
+.print{ 
+    border-color:rgb(194, 55, 55) ;
+    position: relative;
+    color: rgb(128, 71, 71);
+    font-size: 15px;
+    border-radius: 5px;
+    width: 85px;
+    height: 40px;
+    text-align: center;
+    background-color: white;
+}
+.nut{
+    padding-left: 470px;
+    padding-top: 5px;
+}
+.chude{
+   margin-left: 550px;
+   margin-top: 15px;
+}
+h2{
+    font-weight: bold;
+    font-size: 1.5em;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}

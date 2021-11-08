@@ -1,0 +1,71 @@
+body{
+    background-color: none;
+ 
+ }
+ nav{
+     padding: 0 40px;
+     background-color: white;
+     display: flex;
+     justify-content: space-between;
+ }
+ nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0 50px;
+    display:flex;
+    justify-content:flex-end ;
+}
+nav ul li a{
+    font-weight: bold;
+    font-size: 20px;
+    font-family:'Courier New', Courier, monospace;
+    color: black;
+    position: relative;
+    display: block;
+    padding: 20px 10px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: rgb(0, 255, 242);
+}
+
+.cotchung{
+    padding-top: 60px;
+}
+.cot1{
+    width: 40%;
+    float: left;
+}
+.cot2{
+    padding: 5px;
+    float: right;
+    width: 40%;
+    margin-right: 65px;
+    margin-top: -5px;
+}
+.anh1{
+    float: left;
+    margin-right: 30px;
+}
+.anh2{
+    float: left;
+    margin-left: 20px;
+}
+.khung1, .khung2, .khung3{
+    background-color: rgb(192, 192, 192);
+    padding: 4px 4px;
+    margin: 38px 0px;
+}
+.tieude, .time, .noidung{
+    padding-left: 12px;
+}
+.chude{
+    font-size: 24px;
+    color: rgba(165, 42, 42, 0.699);
+}
+.khung4, .khung5, .khung6{
+    background-color: rgb(192, 192, 192);
+    padding: 4px 4px;
+    margin: 38px 0px;
+
+}

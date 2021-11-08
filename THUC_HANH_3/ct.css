@@ -1,0 +1,48 @@
+
+body{
+    padding: 90px 530px;
+    background-color: antiquewhite;
+}
+h1{
+    color: tomato;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+h3{
+    color: royalblue;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+.ho{
+    width: 140px;
+    height: 35px;
+    
+}
+.ten{
+    width: 140px;
+    height: 35px;
+}
+.sdt{
+    margin-top: 6px;
+    width: 350px;
+    height: 35px;
+}
+.pass{
+    margin-top: 6px;
+    width: 350px;
+    height: 35px;
+}
+.bd{
+    width: 100px;
+    height: 40px;
+}
+fieldset{
+    border-radius: 12px;
+    background-color: white;
+}
+button{
+    margin-left: 280px;
+    width: 70px;
+    height: 30px;
+    background-color: yellowgreen;
+}

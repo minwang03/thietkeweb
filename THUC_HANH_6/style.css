@@ -1,0 +1,67 @@
+body{
+   margin: 0;
+    background-color: white;
+}
+header{
+    height: 150px;
+    background-color: chocolate;
+}
+nav {
+    height: 400px;
+    width: 15%;
+    background-color: rgb(255, 230, 0);
+    float: left;
+}
+.container{
+    height: 400px;
+    width: 65%;
+    background-color:white;
+    float: left;
+}
+aside{
+    height: 400px;
+    width: 20%;
+    background: rgb(80, 170, 255);
+    background-size: cover;
+    float: right;
+}
+footer{
+    clear: both;
+    height: 150px;
+    background-color:rgb(42, 151, 165);
+}
+p{
+    padding: 10px 10px;
+    text-align: justify;
+}
+img{
+    display: block;
+    margin: 5px auto;
+
+}
+.khung{
+    width: 96%;
+    border: 1px solid red;
+    border-radius: 10px;
+    height: 380px;
+    margin: 10px auto;
+    padding: -10px;
+}
+nav ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0%;
+}
+nav ul li a{
+    display: block;
+    padding: 25px 50px;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    background-color: chartreuse;
+    color: crimson;
+}
+img{
+    height: 150px;
+    padding: 0px 40px;
+}

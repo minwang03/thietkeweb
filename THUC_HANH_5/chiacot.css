@@ -1,0 +1,21 @@
+.container{
+    width: 1000px;
+    margin: 0 auto;
+    padding: 10px;
+}
+#post{
+    width: 450px;
+    height: 200px;
+    float: left;
+}
+#sidebar{
+    width: 450px;
+    height: 200px;
+    float: right;
+}
+.clear{
+    clear:both;
+}
+#content{
+    overflow: auto;
+}
